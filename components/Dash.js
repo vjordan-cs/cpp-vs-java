@@ -1,9 +1,3 @@
-import { CodeBlock } from "@atlaskit/code";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 const cppMain = `// free-floating function
 int main( int argc, char* argv[])
 {

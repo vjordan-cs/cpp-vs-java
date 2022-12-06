@@ -162,10 +162,7 @@ export default function Dash() {
   return (
     <div>
       <div className="min-h-full w-full">
-        <div
-          as="nav"
-          className="bg-gray-800 text-white py-6 pl-36 text-xl font-bold"
-        >
+        <div className="bg-gray-800 text-white py-6 pl-36 text-xl font-bold">
           C++ vs Java - Object Oriented Programming with Rick King
         </div>
 

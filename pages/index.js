@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Rick King's C++ vs Java</title>
+        <title>Rick King&apos;s C++ vs Java</title>
         <meta name="description" content="Rick King's C++ vs Java" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

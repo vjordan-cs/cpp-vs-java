@@ -1,3 +1,5 @@
+import { CodeBlock } from "@atlaskit/code";
+
 const cppMain = `// free-floating function
 int main( int argc, char* argv[])
 {

@@ -1,4 +1,4 @@
-import { CodeBlock } from "@atlaskit/code";
+import { CodeBlock } from "react-code-blocks";
 
 const cppMain = `// free-floating function
 int main( int argc, char* argv[])
@@ -175,14 +175,14 @@ export default function Dash() {
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Main Function</div>
                   <div className="">C++</div>
-                  <CodeBlock language="c++" text={cppMain} />
+                  <CodeBlock language="cpp" text={cppMain} />
                   <div className="">Java</div>
                   <CodeBlock language="java" text={javaMain} />
                 </li>
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Compiling</div>
                   C++
-                  <CodeBlock language="c++" text={cppComp} />
+                  <CodeBlock language="cpp" text={cppComp} />
                   Java
                   <CodeBlock language="java" text={javaComp} />
                 </li>
@@ -196,7 +196,7 @@ export default function Dash() {
                     Almost the same, but Java does not require a semicolon
                   </div>
                   C++
-                  <CodeBlock language="c++" text={cppClassDec} />
+                  <CodeBlock language="cpp" text={cppClassDec} />
                   Java
                   <CodeBlock language="java" text={javaClassDec} />
                 </li>
@@ -237,7 +237,7 @@ export default function Dash() {
                     If you have a class and wish to refer to a static method,
                     you use the form Class::method.
                   </div>
-                  <CodeBlock language="c++" text={cppScope} />
+                  <CodeBlock language="cpp" text={cppScope} />
                   Java
                   <div>
                     All scoping in Java uses the . again, just like accessing
@@ -248,7 +248,7 @@ export default function Dash() {
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Object declarations</div>
                   C++
-                  <CodeBlock language="c++" text={cppObj} />
+                  <CodeBlock language="cpp" text={cppObj} />
                   Java
                   <CodeBlock language="java" text={javaObj} />
                 </li>
@@ -261,7 +261,7 @@ export default function Dash() {
                     If you&apos;re using a stack-based object, you access its
                     fields with a dot:
                   </div>
-                  <CodeBlock language="c++" text={cppAccess} />
+                  <CodeBlock language="cpp" text={cppAccess} />
                   Java
                   <div>
                     You always work with references (which are similar to
@@ -274,14 +274,14 @@ export default function Dash() {
                     References vs. pointers
                   </div>
                   C++
-                  <CodeBlock language="c++" text={cppRef} />
+                  <CodeBlock language="cpp" text={cppRef} />
                   Java
                   <CodeBlock language="java" text={javaRef} />
                 </li>
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Inheritance</div>
                   C++
-                  <CodeBlock language="c++" text={cppInher} />
+                  <CodeBlock language="cpp" text={cppInher} />
                   Java
                   <CodeBlock language="java" text={javaInher} />
                 </li>
@@ -290,7 +290,7 @@ export default function Dash() {
                     {"Protection levels (abstraction barriers)"}
                   </div>
                   C++
-                  <CodeBlock language="c++" text={cppProtect} />
+                  <CodeBlock language="cpp" text={cppProtect} />
                   Java
                   <CodeBlock language="java" text={javaProtect} />
                 </li>
@@ -298,14 +298,14 @@ export default function Dash() {
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Virtual functions</div>
                   C++
-                  <CodeBlock language="c++" text={cppVirtual} />
+                  <CodeBlock language="cpp" text={cppVirtual} />
                   Java
                   <CodeBlock language="java" text={javaProtect} />
                 </li>
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Abstract classes</div>
                   C++
-                  <CodeBlock language="c++" text={cppVirtual} />
+                  <CodeBlock language="cpp" text={cppVirtual} />
                   Java
                   <CodeBlock language="java" text={javaVirtual} />
                 </li>
@@ -319,7 +319,7 @@ export default function Dash() {
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">NULL vs. null</div>
                   C++
-                  <CodeBlock language="c++" text={cppNull} />
+                  <CodeBlock language="cpp" text={cppNull} />
                   Java
                   <CodeBlock language="java" text={javaNull} />
                 </li>
@@ -330,14 +330,14 @@ export default function Dash() {
                     of merely bool.
                   </div>
                   C++
-                  <CodeBlock language="c++" text={cppBool} />
+                  <CodeBlock language="cpp" text={cppBool} />
                   Java
                   <CodeBlock language="java" text={javaBool} />
                 </li>
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Const-ness </div>
                   C++
-                  <CodeBlock language="c++" text={cppConst} />
+                  <CodeBlock language="cpp" text={cppConst} />
                   Java
                   <CodeBlock language="java" text={javaConst} />
                 </li>
@@ -348,14 +348,14 @@ export default function Dash() {
                     document if your method can throw an exception
                   </div>
                   C++
-                  <CodeBlock language="c++" text={cppThrow} />
+                  <CodeBlock language="cpp" text={cppThrow} />
                   Java
                   <CodeBlock language="java" text={javaThrow} />
                 </li>
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Arrays</div>
                   C++
-                  <CodeBlock language="c++" text={cppArray} />
+                  <CodeBlock language="cpp" text={cppArray} />
                   Java
                   <CodeBlock language="java" text={javaArray} />
                 </li>
@@ -369,7 +369,7 @@ export default function Dash() {
                       "Iterators are members of classes. The start of a range is <container>.begin(), and the end is <container>.end(). Advance using ++ operator, and access using *."
                     }
                   </div>
-                  <CodeBlock language="c++" text={cppCollec} />
+                  <CodeBlock language="cpp" text={cppCollec} />
                   Java
                   <div>
                     {

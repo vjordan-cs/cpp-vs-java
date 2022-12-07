@@ -170,7 +170,7 @@ export default function Dash() {
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             <div className="px-4 py-6 sm:px-0">
-              {/* <List /> */}# C++ to Java Web Page ```html
+              {/* <List /> */}
               <ul role="list" className="space-y-3">
                 <li className="overflow-hidden bg-white px-4 py-4 shadow sm:rounded-md sm:px-6">
                   <div className="text-xl font-bold">Main Function</div>
@@ -241,7 +241,7 @@ export default function Dash() {
                   Java
                   <div>
                     All scoping in Java uses the . again, just like accessing
-                    fields of a class, so it's a bit more regular:
+                    fields of a class, so it&apos;s a bit more regular:
                   </div>
                   <CodeBlock language="java" text={javaScope} />
                 </li>
@@ -258,8 +258,8 @@ export default function Dash() {
                   </div>
                   C++
                   <div>
-                    If you're using a stack-based object, you access its fields
-                    with a dot:
+                    If you&apos;re using a stack-based object, you access its
+                    fields with a dot:
                   </div>
                   <CodeBlock language="c++" text={cppAccess} />
                   Java

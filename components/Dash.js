@@ -158,8 +158,10 @@ export default function Dash() {
   return (
     <div>
       <div className="min-h-full w-full">
-        <div className="bg-gray-800 text-white py-6 pl-36 text-xl font-bold">
-          C++ vs Java - Object Oriented Programming with Rick King
+        <div className="bg-gray-800 text-white py-6 ">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-xl font-bold">
+            C++ vs Java - Object Oriented Programming with Rick King
+          </div>
         </div>
 
         <header className="bg-white shadow">
